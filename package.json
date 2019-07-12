@@ -1,0 +1,26 @@
+{
+  "name": "dingtalk-alarm",
+  "version": "1.0.0",
+  "description": "钉钉报警",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel index.js --presets babel-preset-es2015 --out-dir lib",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "robot",
+    "dingding",
+    "dingtalk"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wsdo/dingtalk-alarm.git"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.4.5",
+    "babel-preset-es2015": "^6.3.13"
+  },
+  "author": "starkwang",
+  "license": "ISC"
+}
