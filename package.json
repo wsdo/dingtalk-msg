@@ -1,6 +1,6 @@
 {
-  "name": "dingtalk-alarm",
-  "version": "1.0.0",
+  "name": "dingding-msg",
+  "version": "1.0.4",
   "description": "钉钉报警",
   "main": "lib/index.js",
   "scripts": {
