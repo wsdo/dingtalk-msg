@@ -1,4 +1,12 @@
-# dingtalk-alarm
+<!--
+ * @Author: starkwang
+ * @Contact me: https://shudong.wang/about
+ * @Date: 2019-09-27 15:13:35
+ * @LastEditors: starkwang
+ * @LastEditTime: 2019-09-27 15:21:01
+ * @Description: dingtalk-msg
+ -->
+# dingtalk-msg
 
 ## 功能
   - 支持通过API发消息到钉钉群。
@@ -28,7 +36,7 @@ robot.sendLink({
 robot.alarmApi({
     name:'web学习中心',
     status :'500',
-    url :'http://stark.wang',
+    url :'http://shudong.wang',
     msg :'',
     alarm :'api异常',
     isAtAll :true
