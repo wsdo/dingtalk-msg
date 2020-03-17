@@ -6,7 +6,7 @@
  * @LastEditTime: 2019-09-27 15:21:01
  * @Description: dingtalk-msg
  -->
-# dingtalk-msg
+# dingding-msg
 
 ## 功能
   - 支持通过API发消息到钉钉群。
@@ -14,7 +14,7 @@
 
 ### 发布纯文本消息
 ```
-const DingTalk = require('./lib/index.js')
+const DingTalk = require('dingding-msg')
 let robot = new DingTalk('accessToken')
 
 robot.sendText('hello stark')
@@ -36,7 +36,7 @@ robot.sendLink({
 robot.alarmApi({
     name:'web学习中心',
     status :'500',
-    url :'http://shudong.wang',
+    url :'https://shudong.wang',
     msg :'',
     alarm :'api异常',
     isAtAll :true
